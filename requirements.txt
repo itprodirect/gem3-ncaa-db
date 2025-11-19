@@ -1,9 +1,9 @@
 requests
 beautifulsoup4
 pandas
-pyyaml
 sqlalchemy
 tqdm
+html5lib
 lxml
 streamlit
 plotly
