@@ -5,3 +5,5 @@ pyyaml
 sqlalchemy
 tqdm
 lxml
+streamlit
+plotly
