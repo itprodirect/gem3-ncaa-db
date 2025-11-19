@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Data (Keep these local only!)
+ncaa-analytics/data_raw/
+ncaa-analytics/data_intermediate/
+ncaa-analytics/db/*.db
+*.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Debug files
+debug_dump.html
