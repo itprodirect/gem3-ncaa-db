@@ -53,7 +53,7 @@ def scrape_season(year, teams):
         try:
             # VITAL: Rate limiting.
             # Sleep 3.5 to 4.5 seconds (~15 requests/min) to stay safe.
-            time.sleep(random.uniform(3.5, 4.5))
+            time.sleep(random.uniform(6.0, 10.0))
 
             resp = requests.get(url, headers=HEADERS)
 
