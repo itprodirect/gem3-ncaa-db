@@ -1,19 +1,23 @@
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual envs
 .venv/
 venv/
-env/
 
-# Data (Keep these local only!)
+# SQLite databases
+*.db
+*.sqlite
+
+# Local NCAA data
+ncaa-analytics/db/
 ncaa-analytics/data_raw/
 ncaa-analytics/data_intermediate/
-ncaa-analytics/db/*.db
-*.db
+scripts/debug_dump.html
 
-# IDE settings
-.vscode/
-.idea/
-
-# Debug files
-debug_dump.html
+# External/manual data
+data_external/
